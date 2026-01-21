@@ -33,3 +33,17 @@ http://127.0.0.1:5000
 ## ✅ Sonuç
 Bu proje, iklim krizine dikkat çekerek
 çevresel farkındalık oluşturmayı amaçlamaktadır 🌎
+
+## Projemin türü:
+site 
+
+## Kullanacağım kütüphaneler:
+flask
+render_template
+
+## İşe yarayabilecek referanslar:
+İklim değişikliğinin nedenleri ve sonuçları
+Bilimsel raporlar, grafikler, özetle
+
+## Geliştirme sırasında bana yardımcı olabilecek kılavuz kaynaklar
+Flask Resmi Dokümantasyonu
