@@ -1,18 +1,11 @@
-from flask import Flask, render_template
+from flask import Flask
 
 app = Flask(__name__)
 
 @app.route("/")
-def index():
-    return render_template("index.html")
-
-@app.route("/nedenler")
-def nedenler():
-    return render_template("nedenler.html")
-
-@app.route("/cozumler")
-def cozumler():
-    return render_template("cozumler.html")
+def ana_sayfa():
+    return "hello world"
+     
 
 if __name__ == "__main__":
     app.run(debug=True)
