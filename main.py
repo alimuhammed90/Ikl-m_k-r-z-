@@ -8,4 +8,3 @@ def ana_sayfa():
 
 if __name__ == "__main__":
     app.run(debug=True)
-2️⃣ Siteyi güzelleştirelim (index.html)
