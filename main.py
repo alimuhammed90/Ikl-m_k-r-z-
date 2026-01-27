@@ -6,5 +6,13 @@ app = Flask(__name__)
 def ana_sayfa():
     return render_template("index.html")
 
+@app.route("/nedenler")
+def nedenler():
+    return render_template("nedenler.html")
+
+@app.route("/cozumler")
+def cozumler():
+    return render_template("cozumler.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
