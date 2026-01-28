@@ -14,5 +14,14 @@ def nedenler():
 def cozumler():
     return render_template("cozumler.html")
 
+@app.route("/neden_yapmamaliyiz")
+def neden_yapmamalıyiz():
+    return render_template("neden_yapmamaliyiz.html")
+
+@app.route("/tesvik")
+def tesvik():
+    return render_template("tesvik.html")
+
+
 if __name__ == "__main__":
     app.run(debug=True)
